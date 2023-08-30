@@ -3,3 +3,4 @@
 /extversion/
 .venv
 __pycache__
+/temp_extracted_folder/
