@@ -1,0 +1,5 @@
+/output/
+/epubs/
+/extversion/
+.venv
+__pycache__
