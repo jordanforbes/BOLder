@@ -3,7 +3,7 @@ import tkinter as tk
 def gui(browse_input_file, browse_output_folder, convert):
 
   root = tk.Tk()
-  root.title = ("BOLder")
+  root.title("BOLder")
 
   browse_input_button = tk.Button(root, text="Browse", command=lambda: browse_input_file(entry_input_path))
   browse_input_button.pack()
