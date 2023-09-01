@@ -4,9 +4,6 @@ import shutil
 from bs4 import BeautifulSoup
 import html
 
-input = './epubs/karamazov.epub'
-output = './output/karamazovBOLD.epub'
-
 def bolder(epub_path, output_path):
 # Step 1: Extract EPUB Content using zipfile module
     output_folder = 'temp_extracted_folder'
@@ -51,4 +48,3 @@ def bolder(epub_path, output_path):
 
     print("EPUB modification and repackaging completed.")
 
-# bolder(input, output)
