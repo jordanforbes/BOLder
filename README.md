@@ -2,4 +2,4 @@
 
 ## to create executable:
 
-pyinstaller --onefile main.py
+pyinstaller --onefile --name BOLder --noconsole main.py
